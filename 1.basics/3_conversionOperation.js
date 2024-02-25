@@ -18,10 +18,14 @@ let boolean=Boolean(a)
 
 let b=2;
 let bString=String(b)
-console.log(bString)
-console.log(typeof bString)
+// console.log(bString)
+// console.log(typeof bString)
 // number->string
 // true->error
 // null->string
 
+const name="    Divy Jain   "
+console.log(name.trim())
+console.log(name.trimStart())
+console.log(name.trimEnd())
 
