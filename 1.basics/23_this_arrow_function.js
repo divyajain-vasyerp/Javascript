@@ -8,7 +8,7 @@ const user={
     }
 }
 // user.welcomeMessage()
-user.name="Jain"
+// user.name="Jain"
 // user.welcomeMessage()
 
 
@@ -59,3 +59,10 @@ user.name="Jain"
 
 // const sum=(n1,n2)=> ({username:"Hitesh"})
 // console.log(sum(1,2))
+
+// (
+// function chai(){
+//     console.log(`DB Connected`);
+// })();
+// chai()
+
