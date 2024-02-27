@@ -38,5 +38,23 @@ program.forEach(function (val)
 
 program.forEach((item,index,arr)=>
 {
-    console.log(item,index,arr);
+    // console.log(item,index,arr);
+})
+
+
+const myCoding=[
+    {
+        languageName:"Javascript",
+        languageFile:".js"
+    },
+        {
+            languageName:"Java",
+            languageFile:".java"
+        } 
+]
+
+myCoding.forEach((item)=>{
+    console.log(item);
+    console.log(item.languageName);
+    console.log(item.languageFile);
 })
