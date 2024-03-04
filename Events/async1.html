@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async 1</title>
+</head>
+<body>
+    <h1>Divy Jain</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+        // setInterval(function(){
+        //     console.log("hii",Date.now());
+        // },1000)
+       const sayDate= function(str)
+       {
+            console.log(str,"D.J.",Date.now());
+       }
+    //    const intervalId=setInterval(sayDate,1000,"Hello")
+    //    clearInterval(intervalId)
+    const sayStart=function(str){
+                console.log(str,"D.J.",Date.now());
+            }
+            var start;
+       document.querySelector('#start').addEventListener('click',function()
+       {
+            // const sayStart=function(str){
+            //     console.log(str,"D.J.",Date.now());
+            // }
+            start=setInterval(sayStart,1000,"Hello")
+       })
+
+       document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(start)
+       })
+    </script>
+</body>
+</html>
